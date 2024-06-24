@@ -1,0 +1,48 @@
+
+Fichier pour ignorer les fichiers et dossiers inutiles dans le dépôt Git.
+
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Environment specific
+.env
+venv/
+env/
+ENV/
+.venv/
+.VENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+
+# Linux specific
+*~
+
+# IDE specific
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+
+# Backup files
+*.bak
+*.swp
+
+# Other
+*.tmp
+*.temp
